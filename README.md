@@ -38,20 +38,22 @@ This project analyzes Lithium-ion battery charging data using MATLAB (and in an 
 
 ## Team Bookkeeping
 
-### Team Taskboard
+  ### Team Taskboard
 
-- To-Do: Example Task (owner: Alex, data: 07/12/2026), 
+  - To-Do: Example Task (owner: Alex, data: 07/12/2026), 
   
-- Doing: 
+  - Doing: 
   
-- Review: 
+  - Review: 
   
-- Done: 
+  - Done: 
   
-  *note*: when annotating team taskboard include 1) owner name and 2) due date documented in README.md 
-         taskboard will be updated every other day
+    *note*: when annotating team taskboard include 1) owner name and 2) due date documented in README.md; 
+            taskboard will be updated every other day
   
 ## Results
+...
 
 ## References
+...
 
