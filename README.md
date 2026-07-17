@@ -33,8 +33,9 @@ This project analyzes Lithium-ion battery charging data using MATLAB (and in an 
 
 ## Workflow
 1. Load the battery data from .mat file
-2. Isolate the charging portion of Cycle 1.
-3. ...
+2. Make sure to download the helper functions (.m)
+3. Isolate the charging portion of Cycle 1.
+4. ...
 
 ## Team Bookkeeping
 
