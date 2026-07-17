@@ -1,0 +1,6 @@
+1. There are two helper functions for Task 2 (.m files) make sure to download so that the code runs smoothly.
+   - I am not sure if they can be converted into .mlx helper functions
+2.  I don't know why everything in the legend for the first 2 graphs are red (shown below) I will go to the next zoom tutoring meeting and asked them what is the best way to fix it
+   <img width="566" height="213" alt="image" src="https://github.com/user-attachments/assets/5ed260ea-46a2-4cae-87a8-3b864e4931f9" />
+
+3. All the files are also uploaded in the google drive for convenience :)
