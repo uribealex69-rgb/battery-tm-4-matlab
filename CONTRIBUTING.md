@@ -24,10 +24,11 @@
 First, check whether Git is already installed.
 
 In the Windows Search Bar, look up 'Windows Powershell' (this will also be referred to as "Windows Terminal" later on)<br/>
-<img width="408" height="88" alt="image" src="https://github.com/user-attachments/assets/0f84c2ce-db25-4b3e-8cf0-845cad724b82" />
+<img width="332" height="46" alt="image" src="https://github.com/user-attachments/assets/f16d1950-3733-4d5c-ab35-9f8e57e081de" />
 
 Click it to open **Windows PowerShell**<br/>
-<img width="332" height="46" alt="image" src="https://github.com/user-attachments/assets/f16d1950-3733-4d5c-ab35-9f8e57e081de" /><br/>
+<img width="408" height="88" alt="image" src="https://github.com/user-attachments/assets/0f84c2ce-db25-4b3e-8cf0-845cad724b82" />
+<img width="1467" height="186" alt="image" src="https://github.com/user-attachments/assets/93667070-f636-466b-8118-be7b5f6bdb2c" />
 
 Type `git --version`, hit `enter` key
 
