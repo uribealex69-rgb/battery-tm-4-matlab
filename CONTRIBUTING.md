@@ -21,43 +21,36 @@
 
 ## 1. Install Git
 
-- First, check whether Git is already installed.
+First, check whether Git is already installed.
 
-Open **Windows Terminal** (PowerShell) and run:
+In the Windows Search Bar,<br/>
+<img width="408" height="88" alt="image" src="https://github.com/user-attachments/assets/0f84c2ce-db25-4b3e-8cf0-845cad724b82" />
 
-```bash
-git --version
-```
+look up 'Windows Powershell' (this will also be referred to as "Windows Terminal" later on)
 
-If you see something similar to
+Click it to open **Windows PowerShell**<br/>
+<img width="332" height="46" alt="image" src="https://github.com/user-attachments/assets/f16d1950-3733-4d5c-ab35-9f8e57e081de" /><br/>
 
-```text
-git version 2.xx.x.windows.x
-```
+Type `git --version`, hit `enter` key
+
+If you see something similar to the image below:
+<img width="346" height="26" alt="image" src="https://github.com/user-attachments/assets/713ee427-2f45-4754-bf2c-26dba63b964b" />
 
 Git is already installed.
 
-If you instead receive an error such as
-
-```text
-'git' is not recognized as an internal or external command
-```
+If you instead receive an error like: `text 'git' is not recognized as an internal or external command`
 
 download Git from:
 
 <https://git-scm.com/download/win>
 
-Run the installer using the default settings unless you have a specific reason to change them.
+Run the installer and install Git for Windows. 
 
 ---
 
-## 2. Verify Installation
+## 2. Check Installation
 
-Close and reopen Windows Terminal, then run
-
-```bash
-git --version
-```
+Close and reopen Windows Terminal, then type `git --version` and hit `enter` again. 
 
 You should now see the installed Git version.
 
@@ -65,29 +58,27 @@ You should now see the installed Git version.
 
 ## 3. Create the Project Folder
 
-Navigate to your Desktop inside OneDrive.
+Navigate to your Desktop folder on your computer within the Windows Powershell tab. 
 
-```powershell
-cd "$HOME\OneDrive\Desktop"
-```
+Depending on the folder setup of your computer, try either:
+    1) typing `cd Onedrive`, hitting the `tab` key, typing `Desktop` after the slash, hitting the `tab` key again, and hitting the `enter` key
+    OR
+    2) typing `cd Desktop`, hitting the `tab` key, and hitting the `enter` key
 
-Create the project folder:
+Create the an EPP project folder by typing: `mkdir ucla_summer_epp`
 
-```powershell
-mkdir ucla_summer_epp
-```
-
-Move into it:
-
-```powershell
-cd ucla_summer_epp
-```
+Move into it by typing `cd ucla_summer_epp`
 
 Your folder should now look something like
 
 ```text
 OneDrive
 └── Desktop
+    └── ucla_summer_epp
+```
+or
+```text
+Desktop
     └── ucla_summer_epp
 ```
 
