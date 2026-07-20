@@ -23,26 +23,22 @@
 
 First, check whether Git is already installed.
 
-In the Windows Search Bar,<br/>
+In the Windows Search Bar, look up 'Windows Powershell' (this will also be referred to as "Windows Terminal" later on)<br/>
 <img width="408" height="88" alt="image" src="https://github.com/user-attachments/assets/0f84c2ce-db25-4b3e-8cf0-845cad724b82" />
-
-look up 'Windows Powershell' (this will also be referred to as "Windows Terminal" later on)
 
 Click it to open **Windows PowerShell**<br/>
 <img width="332" height="46" alt="image" src="https://github.com/user-attachments/assets/f16d1950-3733-4d5c-ab35-9f8e57e081de" /><br/>
 
 Type `git --version`, hit `enter` key
 
-If you see something similar to the image below:
+If you see something similar to the image below:<br/>
 <img width="346" height="26" alt="image" src="https://github.com/user-attachments/assets/713ee427-2f45-4754-bf2c-26dba63b964b" />
 
 Git is already installed.
 
 If you instead receive an error like: `text 'git' is not recognized as an internal or external command`
 
-download Git from:
-
-<https://git-scm.com/download/win>
+download Git from: <https://git-scm.com/download/win> on a browser tab
 
 Run the installer and install Git for Windows. 
 
@@ -69,34 +65,15 @@ Create the an EPP project folder by typing: `mkdir ucla_summer_epp`
 
 Move into it by typing `cd ucla_summer_epp`
 
-Your folder should now look something like
-
-```text
-OneDrive
-└── Desktop
-    └── ucla_summer_epp
-```
-or
-```text
-Desktop
-    └── ucla_summer_epp
-```
-
 ---
 
 ## 4. Clone the Repository
 
-Clone the project into the folder you just created.
+Clone the github repository into the folder you just created.
 
-```bash
-git clone https://github.com/uribealex69-rgb/battery-tm-4-matlab.git
-```
+While still in the Windows Terminal, type `git clone https://github.com/uribealex69-rgb/battery-tm-4-matlab.git`
 
-Move into the repository.
-
-```powershell
-cd battery-tm-4-matlab
-```
+Move into the repository by typing `cd battery-tm-4-matlab`
 
 ---
 
