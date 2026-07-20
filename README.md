@@ -12,16 +12,26 @@ This project analyzes Lithium-ion battery charging data using MATLAB (and in an 
 ## Repository Structure / Dirs Setup
 ```
 .
-├── Battery_Charging_Tm4_Master_Copy.mlx
-├── Battery_Charging_Tm4_Master_Copy.pdf
+├── mathworks_reference_files
+│   └── BatteryCharging_StudentProjectTemplate.mlx
+│   └── BatteryCharging_StudentProjectTemplate.pdf
+│   └── README.md
+├── matlab_files
+│   └── data/
+│   │   └── singleCellLifeTimeData.mat
+│   └── helper_functions/
+│   │   └── README.md
+│   │   └── plotMode.m
+│   │   └── plotcycle_modes.m
+│   └── livescript_versions/
+│       └── Battery_Charging_Task1_Steps1-2.mlx
+│       └── Battery_Charging_Task1_Steps1-2.pdf
+│       └── Battery_Charging_Working_Livescript.mlx
+│       └── Battery_Charging_Working_Livescript.pdf
 ├── CONTRIBUTING.md
+├── Completed_Teamwork_Agreement.pdf
+├── LICENSE.txt
 ├── README.md
-├── REFERENCE_README.md
-├── data/
-│   └── singleCellLifeTimeData.mat
-├── figures/
-├── functions/
-└── report/
 ```
 
 ## Requirements
