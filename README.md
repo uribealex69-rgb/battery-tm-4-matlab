@@ -37,24 +37,20 @@ This project analyzes Lithium-ion battery charging data using MATLAB (and in an 
 3. Isolate the charging portion of Cycle 1.
 4. ...
 
-## Team Bookkeeping
+## Team Taskboard
+  ***Note***: when annotating team taskboard include 1) owner name and 2) due date documented in README.md; taskboard will be updated every other day; last updated 07/20/2026
 
-  ### Team Taskboard
-
-  - To-Do: Example Task (owner: Alex, data: 07/12/2026), 
+### To-Do: Example Task (owner: Alex, date: 07/20/2026), 
   
-  - Doing: 
+### Doing: 
   
-  - Review: 
+### Review: 
   
-  - Done: 
-  
-    *note*: when annotating team taskboard include 1) owner name and 2) due date documented in README.md; 
-            taskboard will be updated every other day
+### Done: 
   
 ## Results
 ...
 
 ## References
-...
+- [Github Docs](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 
