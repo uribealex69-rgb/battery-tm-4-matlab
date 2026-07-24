@@ -5,8 +5,9 @@
 
 2. All the files are also uploaded in the google drive for convenience :) as well as copied into the questions document we decided to update the code on
 
-\\ Update: 
-the errors in the legend have now been fixed.
+\ Update: 
+   - the errors in the legend have now been fixed.
+     
 <img width="128" height="68" alt="image" src="https://github.com/user-attachments/assets/98567dc9-b6ae-42c0-b461-a5ff5c7b515f" />
 
 
