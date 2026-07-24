@@ -3,7 +3,7 @@
 1. There are two helper functions for Task 2 (.m files) make sure to download so that the code runs smoothly.
    - I am not sure if they can be converted into .mlx helper functions
 
-2. All the files are also uploaded in the google drive for convenience :) as well as copied into the questions document we decided to update the code on
+2. All the files are also uploaded in the google drive for convenience :) 
 
  Update: 
    - the errors in the legend have now been fixed.
