@@ -11,4 +11,4 @@
 <img width="128" height="68" alt="image" src="https://github.com/user-attachments/assets/98567dc9-b6ae-42c0-b461-a5ff5c7b515f" />
 
 
-make sure to download the new helper functions (uploaded: 7/23/36)
+   - make sure to download the new helper functions (uploaded: 7/23/36)
