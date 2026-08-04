@@ -10,8 +10,8 @@ This project analyzes Lithium-ion battery charging data using MATLAB (and in an 
 - Susana Zaragoza
 
 ## How to Run:
-   - Load the battery data from the .mat file in the "**MATLAB Project Code Files**" section under "" labeled ""
-   - Make sure to download the helper functions located in the "**MATLAB Project Code Files**" section under "**Helper Functions**" for the code to run smoothly
+   - Load the battery data from the .mat file in the "_**MATLAB Project Code Files**_" section under "" labeled ""
+   - Make sure to download the helper functions located in the "_**MATLAB Project Code Files**_" section under "_**Helper Functions**_" for the code to run smoothly
       - Names of the Helper functions
           * A
           * B
