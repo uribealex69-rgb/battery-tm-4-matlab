@@ -53,8 +53,11 @@ blah blah blah
 │   │   └── singleCellLifeTimeData.mat
 │   └── helper_functions/
 │   │   └── README.md
-│   │   └── plotMode.m
-│   │   └── plotcycle_modes.m
+│   │   └── plotMode.mlx
+│   │   └── plotcycle_modes.mlx
+│   │   └──plotTransition_points.mlx
+│   │   └──plotEnergy_phases.mlx
+│   │   └──plotPower_phases.mlx
 │   └── livescript_versions/
 │       └── Battery_Charging_Task1_Steps1-2.mlx
 │       └── Battery_Charging_Task1_Steps1-2.pdf
