@@ -1,7 +1,23 @@
 # MathWorks Battery Charging Profile Team 4 Repository
 
 ## Overview
-This project analyzes Lithium-ion battery charging data using MATLAB (and in an optional project extension, Simulink). 
+This project analyzes Lithium-ion battery charging data using MATLAB (and in an optional project extension, Simulink). The goal of this project is to analyze the battery to determine the efficiency, lifespan, heat loss, as well as different variables during the charging cycle of the battery. Our required checklist is to highlight the important data during the battery.
+- Step 1
+  * Pre-Process the data to focus on a single cycle
+  * Confirm Voltage maximum =~ 3.6V and fit the voltage equation to the selected data
+  * Plot the data and the fitted curve in the same figure
+  * Display the goodness-of-fit statistics
+- Step 2
+  * Plot...
+    - Voltage vs. Time
+    - Current vs. Time
+    - Power vs. Time
+- Step 3
+  *   Compute a rate of change analysis for key time intervals for the voltage data
+  *   Compute time required to reach 80% and 100% charge
+  *   Compute the total energy that is delivered to the battery (using integration ---> E = int(P)dt ) to calculate the area under the power-time curve
+  *   Estimate the resistive energy loss
+  *   Save the results to a summary table at the end
 
 ## Team 4 Members
 - Vincenzo Cocciolone
