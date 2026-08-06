@@ -26,7 +26,8 @@ This project analyzes Lithium-ion battery charging data using MATLAB (and in an 
 - Susana Zaragoza
 
 ## How to Run:
-   - Load the battery data from the .mat file in the "**_MATLAB Project Code Files_**" labeled ""
+   - Load the battery data from the .mat file in the "**_MATLAB Project Code Files_**" labeled "" 
+   - https://matlab.mathworks.com/open/github/v1?repo=DyDyVNR/battery-tm-4-matlab
    - Make sure to download the helper functions located in the "**_MATLAB Project Code Files_**" section under "**_Helper Functions_**" for the code to run smoothly
       - Names of the Helper functions
           * plotEnergy_phases.mlx
