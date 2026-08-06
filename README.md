@@ -47,6 +47,8 @@ This project analyzes Lithium-ion battery charging data using MATLAB (and in an 
        - Then the code will prompt the user to choose their desired battery charging percentage (Task 3, Step 2)
      - The Script will generate all the required and optional calculations and plots
 
+## How to Reproduce Results
+idk what this means but it is apart of the submission instructions
 
 ## File Information Overview:
 
@@ -54,7 +56,7 @@ This repository is organized into sections in the main branch containing project
 
 **_Google Drive Files:_** Contains project files/materials created originally in Google Drive, including Meeting Notes, the Gantt Chart, and the completed question and answer sections of the main live script. These files were added to the repository to make important project documentation easier to access. The README.md provides a link to the team's Google Drive to access the original files.
 
-**_MATLAB Project Code Files:_** Contains the main MATLAB project code files, including the battery dataset (provided to us), helper functions, the completed live script, as well as extra backup live script functions and their pdfs. This is the primary section for the project's code.
+**_MATLAB Project Code Files:_** Contains the main MATLAB project code files, including the battery dataset (provided to us), helper functions, the completed live script, as well as extra backup live script functions and their pdfs. This folder also contains the PDF versions of the main live script as well as the helper functions (refer below for folder overview). This is the primary section for the project's code.
 
 **_MathWorks Reference and Instruction Files:_** Contains the original project instructions, as well as the provided links, templates, and pdfs. These files are kept as a reference for the project's requirements for the team members.
 
@@ -94,12 +96,18 @@ Main
 │   │   └── plotTransition_points.mlx
 │   │   └── plotEnergy_phases.mlx
 │   │   └── plotPower_phases.mlx
+│   └── PDF Documents/
+│   │   └── Battery_Charging_Profile_TEAM4.pdf
+│   │   └── plotMode.pdf
+│   │   └── plotcycle_modes.pdf
+│   │   └── plotTransition_points.pdf
+│   │   └── plotEnergy_phases.pdf
+│   │   └── plotPower_phases.pdf
 │   └── livescript_versions/
 │   │   └── Battery_Charging_Task1_Step1.mlx
 │   │   └── Battery_Charging_Task1_Step1.pdf
 │   │   └── Battery_Charing_Task2_Step2.mlx
 │   │   └── Battery_Charing_Task2_Step2.mlx
-│   │   └── Battery_Charging_Profile_TEAM4.pdf
 │   └── Battery_Charging_Profile_TEAM4.mlx
 ├── MathWorks Project Reference and Instruction Files
 │   └── BatteryCharging_StudentProjectTemplate.mlx
