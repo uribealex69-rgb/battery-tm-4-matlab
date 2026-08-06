@@ -126,6 +126,7 @@ Main
 │   │   └── Battery_Charing_Task2_Step2.mlx
 │   │   └── Battery_Charing_Task2_Step2.pdf
 │   └── Battery_Charging_Profile_TEAM4.mlx
+│   └── README.md
 ├── MathWorks Project Reference and Instruction Files
 │   └── BatteryCharging_StudentProjectTemplate.mlx
 │   └── BatteryCharging_StudentProjectTemplate.pdf
