@@ -26,16 +26,26 @@ This project analyzes Lithium-ion battery charging data using MATLAB (and in an 
 - Susana Zaragoza
 
 ## How to Run:
-   - Load the battery data from the .mat file in the "**_MATLAB Project Code Files_**" labeled "" 
-   - [![Open in MATLAB Online](https://www.mathworks.com/images/res/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=uribealex69-rgb/battery-tm-4-matlab&branch=main) 
-   - Make sure to download the helper functions located in the "**_MATLAB Project Code Files_**" section under "**_Helper Functions_**" for the code to run smoothly
-      - Names of the Helper functions
+   - Open the project in MATLAB Online:
+     - [![Opens in MATLAB Online](https://www.mathworks.com/images/res/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=uribealex69-rgb/battery-tm-4-matlab&branch=main)
+   - Open the main Live Script
+     - Navigate the the folder labeled _"MATLAB Project Code Files"_
+     - Open the file _"Battery_Charging_Profile_TEAM4.mlx"_
+   - Make sure the helper functions are available
+     - The main Live script uses helper functions, located under _"MATLAB Project Code Files"_ section under _"Helper Functions"_.
+     - Names of the functions include:
           * plotEnergy_phases.mlx
-          * plotmode.m
+          * plotmode.mlx
           * plotPower_phases.mlx
           * plotTransition_points.mlx
           * plotcycle_modes.mlx
-   - Click run to run the code
+     - Keep the files in the project so MATLAB is able to access them when the main live script runs
+   - Running the Code
+     - Once _Battery_Charging_Profile_TEAM4.mlx_ is opened, click **RUN** to run the code
+     - Prompting the user:
+       - The code will first prompt the user to pick a desired cycle in the Command Window (Task 1, Step 1 (end))
+       - Then the code will prompt the user to choose their desired battery charging percentage (Task 3, Step 2)
+     - The Script will generate all the required and optional calculations and plots
 
 
 ## File Information Overview:
