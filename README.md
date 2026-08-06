@@ -7,7 +7,7 @@
 - Susana Zaragoza
 
 ## Overview
-This project analyzes Lithium-ion battery charging data using MATLAB (and in an optional project extension, Simulink). The goal of this project is to analyze the battery to determine the efficiency, lifespan, heat loss, as well as different variables during the charging cycle of the battery. Our required checklist is to highlight the important data during the battery.
+This project analyzes Lithium-ion battery charging data using MATLAB (and in an optional project extension, Simulink/Simscape Battery). The goal of this project is to analyze the battery's charging behavior, including factors such as, efficiency, lifespan, heat loss, and other essential variables during the charging cycle.
   - **Task 1: Fit the voltage equation to a lithium-ion battery profile**
     * Pre-Process the data to focus on a single cycle
     * Confirm Voltage maximum =~ 3.6V and fit the voltage equation to the selected data
@@ -24,12 +24,25 @@ This project analyzes Lithium-ion battery charging data using MATLAB (and in an 
     * Compute the total energy that is delivered to the battery (using integration ---> E = int(P)dt ) to calculate the area under the power-time curve
     * Estimate the resistive energy loss
     * Save the results to a summary table at the end
+  - **Optional:**
+    * Identification and visualization of the CC and CV charging phases, along with transition points between phases
+    * Rate of Voltage Change Analysis
+    * Exponential fitting of CC Voltage profile and exponential decay fitting of the CV current profile
+    * Power and energy analysis for each charging phase
+    * Comparison of energy delivered and efficiency during each phase 
+   
+## Required Toolboxes and Dependencies
+- MATLAB Online
+- MATLAB Live Editor
+- The battery set provided with the project (in the code)
+- The helper functions contained inside  _"MATLAB Project Code Files"_ --->  _"Helper Functions"_.
+
 
 ## How to Run:
    - Open the project in MATLAB Online:
      - [![Opens in MATLAB Online](https://www.mathworks.com/images/res/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=uribealex69-rgb/battery-tm-4-matlab&branch=main)
    - Open the main Live Script
-     - Navigate the the folder labeled _"MATLAB Project Code Files"_
+     - Navigate to the folder labeled _"MATLAB Project Code Files"_
      - Open the file _"Battery_Charging_Profile_TEAM4.mlx"_
    - Make sure the helper functions are available
      - The main Live script uses helper functions, located under _"MATLAB Project Code Files"_ section under _"Helper Functions"_.
@@ -48,21 +61,25 @@ This project analyzes Lithium-ion battery charging data using MATLAB (and in an 
      - The Script will generate all the required and optional calculations and plots
 
 ## How to Reproduce Results
-idk what this means but it is apart of the submission instructions
+ - Open the main Live Script labeled _Battery_Charging_Profile_TEAM4.mlx_ and make sure the 5 helper functions are available.
+ - Click **Run** to allow the code to generate
+ - When prompted with _"Enter the charging cycle to analyze (1-876): "_, enter 1. Cycle 1 was used as our team's baseline cycle.
+ - When prompted with _"Enter your desired percentage (0-100): "_, enter a percentage between 70% and 100%. Our team commonly used 86% when analyzing the results, as lower percentages can result in charging times that appear close to 0 seconds when displayed in four significant figures. However, any percentage between 0-100% can be entered. 
+ - The code will generate the necessary outputs and plots based on the selected inputs, along with the completed, optional ones.
 
 ## File Information Overview:
 
 This repository is organized into sections in the main branch containing project code, supporting documents, reference materials, and team resources, as well as an issue.
 
-**_Google Drive Files:_** Contains project files/materials created originally in Google Drive, including Meeting Notes, the Gantt Chart, and the completed question and answer sections of the main live script. These files were added to the repository to make important project documentation easier to access. The README.md provides a link to the team's Google Drive to access the original files.
+**<ins>_Google Drive Files:_</ins>** Contains project files/materials created originally in Google Drive, including Meeting Notes, the Gantt Chart, and the completed question and answer sections of the main live script. These files were added to the repository to make important project documentation easier to access. The README.md provides a link to the team's Google Drive to access the original files.
 
-**_MATLAB Project Code Files:_** Contains the main MATLAB project code files, including the battery dataset (provided to us), helper functions, the completed live script, as well as extra backup live script functions and their pdfs. This folder also contains the PDF versions of the main live script as well as the helper functions (refer below for folder overview). This is the primary section for the project's code.
+**<ins>_MATLAB Project Code Files:_</ins>** Contains the main MATLAB project code files, including the battery dataset (provided to us), helper functions, the completed live script, as well as extra backup live script functions and their pdfs. This folder also contains the PDF versions of the main live script as well as the helper functions (refer below for folder overview). This is the primary section for the project's code.
 
-**_MathWorks Reference and Instruction Files:_** Contains the original project instructions, as well as the provided links, templates, and pdfs. These files are kept as a reference for the project's requirements for the team members.
+**<ins>_MathWorks Reference and Instruction Files:_</ins>** Contains the original project instructions, as well as the provided links, templates, and pdfs. These files are kept as a reference for the project's requirements for the team members.
 
-**_Extra Files:_** Contains additional repository files that are not apart of the main project's analysis or requirements. This includes a files named CONTRIBUTING.md, which provides instructions for pushing in GitHub, as well as the License.txt file displaying the repository's MIT License.
+**<ins>_Extra Files:_</ins>** Contains additional repository files that are not a part of the main project's analysis or requirements. This includes a file named CONTRIBUTING.md, which provides instructions for pushing in GitHub, as well as the License.txt file displaying the repository's MIT License.
 
-**_ISSUE:_** Used to track the project requirements and completion status via checklist for project members.
+**<ins>_ISSUE:_</ins>** Used to track the project requirements and completion status via checklist for project members.
 
 
 ## Repository FileTree / Directory Layout
@@ -107,7 +124,7 @@ Main
 │   │   └── Battery_Charging_Task1_Step1.mlx
 │   │   └── Battery_Charging_Task1_Step1.pdf
 │   │   └── Battery_Charing_Task2_Step2.mlx
-│   │   └── Battery_Charing_Task2_Step2.mlx
+│   │   └── Battery_Charing_Task2_Step2.pdf
 │   └── Battery_Charging_Profile_TEAM4.mlx
 ├── MathWorks Project Reference and Instruction Files
 │   └── BatteryCharging_StudentProjectTemplate.mlx
@@ -123,5 +140,7 @@ Issues
 
 
 ## References
-- [Github Google Drive](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
-
+- [Team 4 Google Docs](https://drive.google.com/drive/folders/1645osJOC76oqNJOcaEK5QKh06BRbxSx6?usp=drive_link)
+  * Contains important project documentation, team meetings + notes, project updates, and file backups
+- [GitHub Docs - Basic Writing and Formatting Syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+  * Used as a reference for formatting and writing the README
