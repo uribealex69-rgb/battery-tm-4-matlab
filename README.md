@@ -55,6 +55,8 @@ This repository is organized into sections in the main branch containing project
 ## Repository FileTree / Directory Layout
 ```
 .
+Main
+.
 ├── Extra Files
 │   └── CONTRIBUTING.md
 │   └── LICENSE.txt
@@ -94,6 +96,10 @@ This repository is organized into sections in the main branch containing project
 │   └── README.md
 ├── Completed_Teamwork_Agreement.pdf
 ├── README.md
+.
+Issues
+.
+├──Battery Charging Project Progress
 ```
 
 
