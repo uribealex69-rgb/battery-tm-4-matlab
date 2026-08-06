@@ -1,18 +1,10 @@
-# Chris's helper .m functions
+# Helper Functions
 
-1. There are two helper functions for Task 2 (.m files) make sure to download so that the code runs smoothly.
-   - they can be converted into .mlx MATLAB files if u want
-2. There are now 3 new helper functions. They are made to...
-   - Mark the transition points on graphs (optional)
-   - Plot the different phases of energy vs time (ie: CC, CV, rest...)
-   - Plot the different phases of power vs time
-   - (they were made to make the code more readable since these are all to complete the optional sections)
-4. All the files are also uploaded in the google drive for convenience :) 
+This folder contains the helper functions used by Battery_Charging_Profile_TEAM4.mlx to generate plots and aid in the separation of charging phases.
 
- Update: 
-   - the errors in the legend have now been fixed.
-     
-<img width="128" height="68" alt="image" src="https://github.com/user-attachments/assets/98567dc9-b6ae-42c0-b461-a5ff5c7b515f" />
-
-
-   - make sure to download the new helper functions (uploaded: 7/29/36)
+## Functions
+- <ins>plotEnergy_phases.mlx</ins> - Plots all of the subplots in the main live script at once for the different phases of Energy vs Time.
+- <ins>plotMode.mlx</ins> -Plots a continuous section of the charging cycle that is of interest
+- <ins>plotPower_phases.mlx</ins> - Plots all of the subplots in the main live script at once for the different phases of Power vs Time.
+- <ins>plotTransition_points.mlx</ins> - Plots the transition points on the graphs containing the plotcycle_modes
+- <ins>plotcycle_modes.mlx</ins> -  Plots the different charging phases on graphs in different colours
