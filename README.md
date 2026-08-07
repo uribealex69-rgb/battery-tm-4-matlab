@@ -58,8 +58,8 @@ This project analyzes Lithium-ion battery charging data using MATLAB (and in an 
           * plotPower_phases.mlx
           * plotTransition_points.mlx
           * plotcycle_modes.mlx
-      - Then, right click one of the helper functions and click "_Add MATLAB Drive/...s/Helper Functions to Search Path_". This will add all helper functions to the path automatically.
-     - Keep the files in the project so MATLAB is able to access them when the main live script runs
+      - Then, right click one of the helper functions and click "_Add MATLAB Drive/...s/Helper Functions to Search Path_". This will add all helper functions to the path automatically. (The helper function files on the Files tab should be highlighted)
+     - Keep the files in the tab so MATLAB can access them while the live script runs.
    - Running the Code
      - Once _Battery_Charging_Profile_TEAM4.mlx_ is opened, click **RUN** to run the code
      - Prompting the user:
