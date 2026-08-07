@@ -1,6 +1,6 @@
 # Google Drive File Directory
 
-# Folder/File Overview
+## Folder/File Overview
 - [Meeting Notes](Meeting%20Notes)
   * Contains useful notes and task breakdowns from team meetings
 - [Question-Answer Sections](Question-Answer%20Sections/)
