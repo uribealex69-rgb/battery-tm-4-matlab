@@ -88,7 +88,7 @@ This repository is organized into sections in the main branch containing project
 
 **<ins>Completed_Teamwork_Agreement.pdf</ins>** - The file for which our team initially decided the project breakdown as well as our signatures at the end.
 
-**<ins>_ISSUE:_</ins>** Used to track the project requirements and completion status via checklist for project members.
+**<ins>_ISSUE:_</ins>** Used to track the project requirements and completion status via checklist for project members. The issue is **closed** due to completion of the project.
 
 
 ## Repository FileTree / Directory Layout
