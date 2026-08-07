@@ -32,10 +32,15 @@ This project analyzes Lithium-ion battery charging data using MATLAB (and in an 
     * Comparison of energy delivered and efficiency during each phase 
    
 ## Required Toolboxes and Dependencies
-- MATLAB Online
-- MATLAB Live Editor
-- The battery set provided with the project (in the code)
-- The helper functions contained inside  _"MATLAB Project Code Files"_ --->  _"Helper Functions"_.
+- Regular Use
+  * MATLAB Online
+  * MATLAB Live Editor
+  * The battery set provided with the project (in the code)
+  * The helper functions contained inside  _"MATLAB Project Code Files"_ --->  _"Helper Functions"_.
+- Toolboxes (MATLAB Application (not recommended))
+  * Curve Fitting Toolbox
+  * Optimization Toolbox
+  * Predictive Maintenance Toolbox
 
 
 ## How to Run:
