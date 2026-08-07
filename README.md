@@ -7,7 +7,7 @@
 - Susana Zaragoza
 
 ## Overview
-This project analyzes Lithium-ion battery charging data using MATLAB (and in an optional project extension, Simulink/Simscape Battery). The goal of this project is to analyze the battery's charging behavior, including factors such as, efficiency, lifespan, heat loss, and other essential variables during the charging cycle.
+This project analyzes Lithium-ion battery charging data using MATLAB (and in an optional project extension, Simulink/Simscape Battery). The goal of this project is to analyze the battery's charging behavior, including factors such as efficiency, lifespan, heat loss, and other essential variables during the charging cycle.
   - **Task 1: Fit the voltage equation to a lithium-ion battery profile**
     * Pre-Process the data to focus on a single cycle
     * Confirm Voltage maximum =~ 3.6V and fit the voltage equation to the selected data
@@ -58,7 +58,7 @@ This project analyzes Lithium-ion battery charging data using MATLAB (and in an 
           * plotPower_phases.mlx
           * plotTransition_points.mlx
           * plotcycle_modes.mlx
-      - Then, right click one of the helper functions, and click "_Add MATLAB Drive/...s/Helper Functions to Search Path_" This will add all helper functions to the path automatically.
+      - Then, right click one of the helper functions and click "_Add MATLAB Drive/...s/Helper Functions to Search Path_". This will add all helper functions to the path automatically.
      - Keep the files in the project so MATLAB is able to access them when the main live script runs
    - Running the Code
      - Once _Battery_Charging_Profile_TEAM4.mlx_ is opened, click **RUN** to run the code
@@ -80,15 +80,15 @@ This repository is organized into sections in the main branch containing project
 
 **<ins>_Google Drive Files:_</ins>** Contains project files/materials created originally in Google Drive, including Meeting Notes, the Gantt Chart, and the completed question and answer sections of the main live script. These files were added to the repository to make important project documentation easier to access. The README.md provides a link to the team's Google Drive to access the original files.
 
-**<ins>_MATLAB Project Code Files:_</ins>** Contains the main MATLAB project code files, including the battery dataset (provided to us), helper functions, the completed live script, as well as extra backup live script functions and their pdfs. This folder also contains the PDF versions of the main live script as well as the helper functions (refer below for folder overview). This is the primary section for the project's code.
+**<ins>_MATLAB Project Code Files:_</ins>** Contains the main MATLAB project code files, including the battery dataset (provided to us), helper functions, the completed live script, as well as extra backup live script functions and their PDFs. This folder also contains the PDF versions of the main live script as well as the helper functions (refer below for folder overview). This is the primary section for the project's code.
 
 **<ins>_MathWorks Reference and Instruction Files:_</ins>** Contains the original project instructions, as well as the provided links, templates, and pdfs. These files are kept as a reference for the project's requirements for the team members.
 
-**<ins>_Extra Files:_</ins>** Contains additional repository files that are not a part of the main project's analysis or requirements. This includes a file named CONTRIBUTING.md, which provides instructions for pushing in GitHub, as well as the License.txt file displaying the repository's MIT License.
+**<ins>_Extra Files:_</ins>** Contains additional repository files that are not a part of the main project's analysis or requirements. This includes a file named CONTRIBUTING.md, which provides instructions for pushing to GitHub, as well as the License.txt file displaying the repository's MIT License.
 
-**<ins>Completed_Teamwork_Agreement.pdf</ins>** - The file for which our team initially decided the project breakdown as well as our signatures at the end.
+**<ins>_Completed_Teamwork_Agreement.pdf_</ins>** - The file for which our team initially decided the project breakdown, as well as our signatures at the end.
 
-**<ins>_ISSUE:_</ins>** Used to track the project requirements and completion status via checklist for project members. The issue is **closed** due to completion of the project.
+**<ins>_ISSUE:_</ins>** Used to track the project requirements and completion status via a checklist for project members. The issue is **closed** due to completion of the project.
 
 
 ## Repository FileTree / Directory Layout
@@ -115,7 +115,7 @@ Main
 ├── MATLAB Project Code Files
 │   └── data/
 │   │   └── singleCellLifeTimeData.mat
-│   └── Helper_Functions/
+│   └── Helper Functions/
 │   │   └── README.md
 │   │   └── plotMode.mlx
 │   │   └── plotcycle_modes.mlx
