@@ -49,8 +49,9 @@ This project analyzes Lithium-ion battery charging data using MATLAB (and in an 
    - Open the main Live Script
      - Navigate to the folder labeled _"MATLAB Project Code Files"_
      - Open the file _"Battery_Charging_Profile_TEAM4.mlx"_ 
-   - Make sure the helper functions are available and manually open them one by one. (double click to open tabs)
+   - Make sure the helper functions are available.
      - The main Live script uses helper functions, located under _"MATLAB Project Code Files"_ section under _"Helper Functions"_.
+     - Manually open each of the helper functions individually (double click to open tabs)
      - Names of the functions include:
           * plotEnergy_phases.mlx
           * plotmode.mlx
